@@ -1,0 +1,145 @@
+body,html{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+}
+.nav-icon{
+    max-width:90%;
+    filter: invert(99%) sepia(0%) saturate(1438%) hue-rotate(59deg) brightness(116%) contrast(100%);
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+    width:75px;
+    padding-right:50px;
+}
+
+.title a{
+    text-decoration: none;
+    font-family: fantasy;
+    font-size: 60px;
+    color: white;
+}
+
+.dropdown-content{
+    display:none;
+    position: absolute;
+    right:1px;
+    background-color: #0f2f77;
+    min-width: 500px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size:25px
+    
+}
+
+.dropdown-content a:hover {
+    text-decoration: none;
+    color: rgb(241, 173, 45);  
+    padding: 10px;
+}
+
+
+.Header{
+    background-color: #0f2f77;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-left img{
+    width:100px;
+    padding-left: 30px;
+    padding-top:15px;
+}
+
+.header-right{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.current{
+    color: rgba(51, 116, 255, 0.562);
+}
+
+@media (max-width:800px) {
+    .content2,.content3{
+        flex-direction: column;
+    }
+}
+
+.content1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    padding-bottom: 4%;
+}
+
+.content2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    padding: 1%;
+    padding-bottom: 5%;
+}
+
+.content3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    padding: 1%;
+    padding-bottom: 5%;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pic img{
+    width: 200px;
+    height: 200px;
+}
+
+.footer{
+    color: white;
+    background-color: #0f2f77;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 5px;
+}
+
+.left{
+    padding-left: 20px;
+}
+
+.right{
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+padding-right: 20px;
+}
+
+.right p{
+    padding-right: 15px;
+}
+
+.right img{
+    width: 20px;
+    padding-right: 10px;
+}
